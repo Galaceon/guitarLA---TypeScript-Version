@@ -7,7 +7,8 @@ import { useState } from "react"
 function App() {
 
     const { data, cart, removeFromCart, increaseQuantity, decreaseQuantity, clearCart, addToCart, isEmpty, cartTotal } = useCart()
-    
+
+
     return (
         <>
             <Header 
