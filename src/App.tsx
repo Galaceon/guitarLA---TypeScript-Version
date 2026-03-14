@@ -2,6 +2,8 @@ import Header from "./components/Header"
 import Guitar from "./components/Guitar"
 import { useCart } from "./hooks/useCart"
 
+import { useState } from "react"
+
 function App() {
 
     const { data, cart, removeFromCart, increaseQuantity, decreaseQuantity, clearCart, addToCart, isEmpty, cartTotal } = useCart()
