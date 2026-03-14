@@ -1,4 +1,4 @@
-type Guitar = {
+interface Guitar {
     id: number
     name: string
     image: string
