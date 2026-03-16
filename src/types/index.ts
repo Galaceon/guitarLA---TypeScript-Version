@@ -6,6 +6,6 @@ export interface Guitar {
     price: number 
 }
 
-export interface CartItem extends Pick<Guitar, 'id' | 'name' | 'price'> {
+export interface CartItem extends Guitar {
     quantity: number
 }
